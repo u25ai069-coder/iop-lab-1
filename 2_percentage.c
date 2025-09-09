@@ -24,8 +24,9 @@ int main()
 
     total = sub1 + sub2 + sub3 + sub4 + sub5;
 
-    percentage = total / 5;
+    percentage = total / 5.0;
 
     printf("Total = %d\n", total);
     printf("Percentage = %f", percentage);
+
 }
